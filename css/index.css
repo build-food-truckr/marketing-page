@@ -163,7 +163,6 @@ html {
 }
 .container {
   width: 1000px;
-  height: 10000px;
   margin: 0 auto;
 }
 .main-section {
@@ -172,15 +171,22 @@ html {
   color: slategray;
 }
 .main-section h1 {
-  font-size: 3.2rem;
+  font-size: 4.8rem;
   margin-bottom: 1.6rem;
   text-align: center;
+  color: black;
+  letter-spacing: 1rem;
+}
+.main-section h2 {
+  font-size: 2.4rem;
+  padding: 0 5%;
+  line-height: 3.2rem;
 }
 .main-section .trucks-grid {
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 5rem;
-  padding: 1rem 0;
+  grid-gap: 5rem, 2.5rem;
+  padding: 1rem ;
 }
 .main-section .trucks-grid .grid-item {
   padding: 2.4rem;
@@ -212,5 +218,24 @@ html {
   background-color: salmon;
 }
 .main-section .trucks-grid .grid-item .find-truck-button:hover a {
+  color: white;
+}
+footer {
+  background-color: #03A9F4;
+  padding: 1.6rem;
+}
+footer address {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: white;
+}
+footer address p a {
+  text-decoration: none;
+  color: salmon;
+}
+footer .copyright {
+  margin-top: 2.4rem;
+  text-align: center;
+  font-size: 2.4rem;
   color: white;
 }
