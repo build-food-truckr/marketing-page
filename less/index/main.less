@@ -1,0 +1,59 @@
+
+
+.container {
+    width: 1000px;
+    height: 10000px;
+    margin: 0 auto;
+}
+
+
+.main-section {
+    background-color: @light-blue;
+    padding: 2.5% 0;
+    color: slategray;
+    h1 {font-size: 3.2rem;
+        margin-bottom: 1.6rem;
+        text-align: center;
+    }
+
+    .trucks-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 5rem;
+        padding: 1rem 0;
+        .grid-item {
+            padding: 2.4rem;
+            img {
+                width: 100%;
+                margin-bottom: 1.2rem;
+            }
+
+            p {
+                font-size: 1.8rem;
+            }
+
+            .find-truck-button {
+                margin: 2.4rem auto 0;
+                border: solid;
+                width: 50%;
+                height: 3rem;
+                border-radius: 2rem;
+                .flex-class(center, center);
+                a {
+                    text-decoration: none;
+                    font-size: 2.4rem;
+                    color: gray;
+                }
+
+                &:hover {
+                    border-color: salmon;
+                    background-color: salmon;
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+    }
+}
