@@ -151,7 +151,7 @@ html {
   display: block;
 }
 .nav-bar {
-  background-color: #1565C0;
+  background-color: #0097A7;
   padding: 0 2.5%;
   display: flex;
   justify-content: space-between;
@@ -183,7 +183,7 @@ html {
   margin: 0 auto;
 }
 .main-section {
-  background-color: #E3F2FD;
+  background-color: #e0f7fa;
   padding: 2.5% 0;
   color: #504E50;
 }
@@ -194,12 +194,7 @@ html {
   color: black;
   letter-spacing: 1rem;
 }
-.main-section h2 {
-  font-size: 2.4rem;
-  padding: 0 5%;
-  line-height: 3.2rem;
-}
-.main-section .trucks-grid {
+.main-section .members-grid {
   display: grid;
   justify-content: space-around;
   grid-template-columns: auto auto;
@@ -207,20 +202,23 @@ html {
   grid-column-gap: 2.6rem;
   padding: 1rem ;
 }
-.main-section .trucks-grid .grid-item {
+.main-section .members-grid .grid-item {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 8px 12px 0 rgba(0, 0, 0, 0.2);
   padding: 2.4rem;
 }
-.main-section .trucks-grid .grid-item img {
+.main-section .members-grid .grid-item img {
   width: 100%;
   margin-bottom: 1.2rem;
 }
-.main-section .trucks-grid .grid-item p {
+.main-section .members-grid .grid-item h2 {
+  font-size: 2.4rem;
+  line-height: 4.8rem;
+}
+.main-section .members-grid .grid-item p {
   font-size: 1.8rem;
 }
-.main-section .trucks-grid .grid-item .find-truck-button {
+.main-section .members-grid .grid-item .portfolios {
   margin: 2.4rem auto 0;
-  border: solid;
   width: 50%;
   height: 3rem;
   border-radius: 2rem;
@@ -228,20 +226,16 @@ html {
   justify-content: center;
   align-items: center;
 }
-.main-section .trucks-grid .grid-item .find-truck-button a {
+.main-section .members-grid .grid-item .portfolios a {
   text-decoration: none;
-  font-size: 2.4rem;
+  margin: 0 2rem;
   color: #504E50;
 }
-.main-section .trucks-grid .grid-item .find-truck-button:hover {
-  border-color: #EF903C;
-  background-color: #EF903C;
-}
-.main-section .trucks-grid .grid-item .find-truck-button:hover a {
-  color: white;
+.main-section .members-grid .grid-item .portfolios a:hover {
+  color: #EF903C;
 }
 footer {
-  background-color: #03A9F4;
+  background-color: #00BCD4;
   padding: 1.6rem;
 }
 footer address {
